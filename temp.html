@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <section id="nav">
+            <div class="navbar navbar-expand-lg navbar-light bg-light">
+                <p class="navbar-brand mb" style=" margin-left: 2rem; padding-top: 20px;"><span style="color:crimson;">CO-VID</span>TRACKER</p>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" style="margin-left: 900px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#symptoms" style="margin-left: 2rem; padding-top: 10px;">Symptoms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prevention" style="margin-left: 2rem; padding-top: 10px;">Prevention</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Help" style="margin-left: 2rem; padding-top: 10px;">Help</a>
+                    </li>
+                </div>
+            </div>
+    </section>
+
+    <!--  MIDDLE SECTION -->
+    <div class="container">
+    <section id="header">
+        <div class="row">
+            <div class="col" style="text-align: center; margin-top: 150px; margin-left: 50px">
+              <h3>COVID-19 PANDEMIC</h3>
+                <p>Coronavirus disease 2019 (COVID-19) is defined as illness caused by a novel coronavirus now called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2; formerly called 2019-nCoV), which was first identified amid an outbreak of resp  iratory illness cases in Wuhan City, Hubei Province, China..</p>
+            </div>
+            <div class="col" style="text-align: center; margin-right: 50px;">
+              <img src="/images/Virus.png" alt="Virus" style="height: 400px; width: 400px;">
+            </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="data" style="margin-top: 100px;">
+            <div class="wrapper_stats">
+                <div class="item active">ACTIVE</div>
+                <div class="item confirmed">CONFIRMED</div>
+                <div class="item recovered">RECOVERED</div>
+                <div class="item deaths">DEATHS</div>
+                <div class="item act_num">Waiting</div>
+                <div class="item confirm_num">Waiting</div>
+                <div class="item recov_num">Waiting</div>
+                <div class="item death_num ">Waiting</div>
+                
+            </div>
+            <div id="item date_time" style="margin: 10px 30% auto;">
+                <h5 style="font-size:1em;font-weight:300;">Last Updated :
+                    <span id="date" style="font-size:0.8em;font-weight:300">Waiting</span>
+                </h5>
+                
+            </div>    
+    </section>
+
+
+
+    <!-- SYMPTOMS SECTION -->
+    <section id="symptoms" style="margin-top: 100px;">
+        <h3 id="symp_title">SYMPTOMS<hr></h3>
+        <div class="wrapper_symp">
+            <img class="img"src="/images/fever.png" alt="FEVER">
+            <img class="img"src="/images/cough.png" alt="COUGH">
+            <img class="img"src="/images/sore-throat.png " alt="SORE-THROAT">
+            <span class="img_cap "style="margin-left:155px">FEVER</span>
+            <span class="img_cap" style="margin-left: 146px;">COUGH</span>
+            <span class="img_capst">SORE-THROAT</span>
+        </div>
+    </section>   
+
+    <!-- PREVENTION -->
+    
+    <section id="prevention" style="margin-top: 100px;">
+        <h3 id="prev_title">PREVENTION<hr></h3>
+        <div class="wrapper_prev">
+            <div class="card ">
+                <img class="img"src="/images/distancing.png" alt="distancing">
+                <h3 class="card_title">SOCIAL DISTANCING</h3>
+                <p>Maintain proper distance while meeting with other peoples.Do not gather in groups.</p>
+            </div>
+           
+            <div class="card">
+                <img class="img"src="/images/face-mask.png" alt="wear_mask">
+                <h3 class="card_title">WEAR MASK</h3>
+                <p>While going out cover your face with MASK or HANDKERCHIEF.</p>
+            </div>
+           
+            <div class="card">
+                <img class="img"src="/images/hand-sanitizer.png" alt="sanitize">
+                <h3 class="card_title">SANITIZE</h3>
+                <p>Always wash your hands.Use soap or sanitizer.</p>
+            </div>
+            
+            <div class="card">
+                <img class="img"src="/images/stayhome.png" alt="gharbaitho">
+                <h3 class="card_title">STAY HOME</h3>
+                <p>Only go out if the absolute necessity otherwise stay HOME!</p>
+            </div>
+            
+            
+        </div>
+
+    </section>
+    <section id="Help" style="margin-top: 100px;">
+        <p id="help_title">MORE INFORMATION</p>
+        
+        <div class="wrapper_help">
+            <div id="help_btns">
+                <div id="help bt1"style="display:inline-block; margin:20px 60px;"><a href="https://www.covid19india.org" style="text-decoration: none;"> COVID19 INDIA</a></div>
+                <div id="help bt2"style="display:inline-block; margin:20px 100px; padding-left:10px"><span>Helpline Number : +91-11-23978046 & 1075</span></div>
+                <div id="help bt3"style="display:inline-block; margin:20px 60px; "><a href="https://www.mohfw.gov.in" style="text-decoration:none">Ministry of Health and Welfare</a></div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <h5>YOO!MY GITHUB </h5>
+    </footer>
+    <script src="app.js"></script>    
+</div>    
+</body>
+</html>

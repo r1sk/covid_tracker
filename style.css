@@ -1,0 +1,123 @@
+
+html{
+    scroll-behavior: smooth;
+    color: ghostwhite;
+}
+body{
+    color: ghostwhite;
+    
+}
+
+.container{
+    background-color:rgba(224, 224, 224, 0.24);
+    
+}
+
+/*STATS*/
+ .wrapper_stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border:1px solid rgba(90, 90, 90, 0.137);
+    border-top: none;
+    border-left: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(138, 138, 138, 0.459);
+}
+.item{
+    margin: auto;
+}
+.active , .act_num{
+    color:rgb(47, 205, 245);
+}
+.confirmed, .confirm_num{
+    color:rgb(255, 60, 60)
+}
+
+.recovered , .recov_num{
+    color:rgb(59, 255, 59)
+}
+
+.deaths , .death_num{
+    color:rgb(141, 141, 141);
+}
+
+#data #date_time {
+    margin: auto 43%;
+}
+ #date_time > h5{
+    display: inline-block;
+    font-size:1em;
+    font-weight:300;
+    
+}
+
+#data #date_time >span{
+
+}
+/*SYMPTOMS*/
+#symp_title{
+    margin:auto 43%;
+    padding-bottom: 90px;
+}
+ 
+.wrapper_symp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.5em;
+    /* scroll-behavior: smooth; */
+}
+.img{
+    margin:auto;
+    padding-top: 10px;
+}
+.img_capst{
+    margin:auto
+}
+
+
+/*PREVENTION*/
+#prev_title{
+    margin:auto 43%;
+    padding-bottom: 90px;
+}
+.wrapper_prev{
+    display: grid;
+    grid-row-gap: 1.5em;
+    grid-column-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card_title{
+    font-size: larger;
+    font-weight: 500;
+    margin: auto;
+    padding: 15px 10px;
+}
+ p{
+    font-size:small;
+    text-align: center;
+}
+
+ 
+/* HELP SECTION */
+#help_title{
+    margin:auto 43%;
+    padding-bottom: 30px;
+    font-size:1.5em;
+}
+  
+#help_btns{
+    background-color:rgba(240, 238, 238, 0.637);
+} 
+
+#help_btns a{
+    color: black !important
+}
+
+#help_btns a:hover{
+    color:rgb(255, 74, 104) !important
+}
+    
